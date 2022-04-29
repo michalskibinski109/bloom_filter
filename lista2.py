@@ -69,7 +69,7 @@ class ValidityCheck:
         ax.set_title('times of finding invalid words')
         plt.show()
 
-
+#### nowea zm,iana nwm po ja robie xd
 # words = set(nltk.corpus.abc.words())
 # movies = nltk.corpus.movie_reviews
 # model = ValidityCheck(words)
