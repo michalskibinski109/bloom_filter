@@ -69,16 +69,3 @@ class ValidityCheck:
         ax.set_title('times of finding invalid words')
         plt.show()
 
-#### nowea zm,iana nwm po ja robie xd
-# words = set(nltk.corpus.abc.words())
-# movies = nltk.corpus.movie_reviews
-# model = ValidityCheck(words)
-
-# print( f'total words: {len(set(movies.words()))}, bad words: {model.naiveMethod(movies)}, time: {model.naiveTime}')
-# print(
-#     f'total words: {len(set(movies.words()))}, bad words: {model.bloomFilter(movies)}, time: {model.bloomTime}')
-# validWords = model.autoCorrect()
-# invalidWords = model.mostCommonWords
-
-# for i in range(10):
-#     print(f'{invalidWords[i]} -> {validWords[i]}')
